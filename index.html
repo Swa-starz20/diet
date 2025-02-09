@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Suggestion App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#preferences" class="nav-link">Preferences</a>
+      <a href="#recipes" class="nav-link">Recipes</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="preferences" class="preferences-section">
+      <h2>Set Your Dietary Preferences</h2>
+      <form id="preferences-form">
+        <label for="diet">Diet Type:</label>
+        <select id="diet">
+          <option value="vegetarian">Vegetarian</option>
+          <option value="vegan">Vegan</option>
+          <option value="gluten-free">Gluten-Free</option>
+        </select>
+        <button type="submit">Find Recipes</button>
+      </form>
+    </section>
+    
+    <section id="recipes" class="recipes-section">
+      <h2>Suggested Recipes</h2>
+      <div id="recipe-list"></div>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
