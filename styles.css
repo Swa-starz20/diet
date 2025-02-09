@@ -1,0 +1,67 @@
+
+body {
+    background-image: url('https://img.freepik.com/free-photo/flat-lay-frame-with-healthy-food_23-2148531526.jpg?t=st=1738056522~exp=1738060122~hmac=474b76d2d243fe96a3b9e70bd7560507f7555078feef0180f9b2868a2ee051cc&w=2000'); /* Replace with your image path */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+  }
+  
+ 
+  section {
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 90%;
+  }
+  •⁠  ⁠{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background: #ff6347;
+    padding: 1rem;
+  }
+  .nav-link {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  
+  form {
+    margin-top: 1rem;
+  }
+  form label {
+    margin-right: 0.5rem;
+  }
+  
+  
+  #recipe-list {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  }
